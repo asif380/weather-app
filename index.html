@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wather app</title>
+    <link rel="stylesheet" href="style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<div class="container mt-5">
+<div class="row bg">
+<div class="col-md-5 mx-auto mt-5 p-5 text-center">
+
+<h1 id="location" class="text-light"></h1>
+<h3 id="desc" class="text-light"> </h3>
+<h3 id="string" class="text-light"> </h3>
+<img id="icon"  src="">
+<div class="uldiv">
+<ul>
+    <li class="list-group-item bg-custom mb-2" id="humidity"></li>
+    <li class="list-group-item bg-custom mb-2" id="pressaure"></li>
+    <li class="list-group-item bg-custom mb-2" id="wind"></li>
+    <div class="div d-flex mt-5">
+        <input type="text" id="input-value" placeholder="Enter your location"class="form-control" >
+        <button id="change" class="btn bg-dark text-light" data-toggle='modal'>Change location</button>
+        </div>
+</ul>
+<!-- <div class="div d-flex">
+<input type="text" id="input-value" placeholder="Enter your location"class="form-control" >
+<button id="change" class="btn bg-dark text-light" data-toggle='modal'>Change location</button>
+</div> -->
+</div>
+        </div>
+    </div>
+</div>
+
+    <script src="./app.js"></script>
+    <script src="./ui.js"></script>
+    <script src="./weather.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
